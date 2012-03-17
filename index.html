@@ -1,5 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
+   <!-- Thanks, Bootstrap! -->
+
    <head>
       <meta charset="utf-8">
       <title>Ben Straub</title>
@@ -7,96 +11,89 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      <!-- Le styles -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <style type="text/css">
          body {
-         padding-top: 60px;
+         padding-top: 40px;
          padding-bottom: 40px;
+         }
+
+         a img {
+         margin-right: 1em;
+         display: block;
+         padding: 4px;
+         line-height: 1;
+         border: 1px solid #ddd;
+         -webkit-border-radius: 4px;
+         -moz-border-radius: 4px;
+         border-radius: 4px;
+         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+         -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+         }
+         a img:hover {
+         border-color: #0088cc;
+         -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+         -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+         box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
          }
       </style>
       <link href="css/bootstrap-responsive.css" rel="stylesheet">
 	   <link rel="shortcut icon" href="http://26.media.tumblr.com/avatar_89b3c07fdb46_16.png" />
 
       <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
    </head>
    <body>
 
-      <!-- <div class="navbar navbar-fixed-top"> -->
-      <!--    <div class="navbar-inner"> -->
-      <!--       <div class="container"> -->
-      <!--          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> -->
-      <!--             <span class="icon-bar"></span> -->
-      <!--             <span class="icon-bar"></span> -->
-      <!--             <span class="icon-bar"></span> -->
-      <!--          </a> -->
-      <!--          <a class="brand" href="#">Ben Straub</a> -->
-      <!--          <div class="nav-collapse"> -->
-      <!--             <ul class="nav"> -->
-      <!--                <li class="active"><a href="#">Home</a></li> -->
-      <!--                <li><a href="#about">About</a></li> -->
-      <!--                <li><a href="#contact">Contact</a></li> -->
-      <!--             </ul> -->
-      <!--          </div><\!--/.nav-collapse -\-> -->
-      <!--       </div> -->
-      <!--    </div> -->
-      <!-- </div> -->
-
       <div class="container">
 
-         <!-- Main hero unit for a primary marketing message or call to action -->
          <div class="hero-unit">
-            <h1>You should hire me.</h1>
+            <h1>You should hire <a href="http://ben.straubnet.net/cv" target="_blank">me</a>.</h1>
             <p>You're building Github for Windows.  Here's why you want me on your team.</p>
          </div>
 
          <div class="row">
-            <div class="span12">
-               <p>For a long time I was worried that I couldn't hack it at someplace like Github.  Several of my personal heroes already work there, what do I have to offer?</p>
-
-               <h1>It turns out, a lot.</h1>
-            </div>
-         </div>
-
-         <hr>
-
-         <div class="row">
-            <div class="span4">
+            <div class="span6">
                <h2>I'm good at this.</h2>
                <p>
-                  I've written new stuff, and Worked Effectively with Legacy Systems.
+                  I've written new stuff, and Worked Effectively with Legacy Systems.  I've written Windows drivers, services, and UIs in Win32, WinForms, and WPF.  I made <a href="http://www.wacom.com/en/Products/Intuos/~/media/76EFCE557F7644AD889D2322DA02731C.ashx" target="_blank">this</a> work on XP.  I trained my team on MVVM.  I extended and upgraded a 6-year-old VB6-style UI with WPF components, to the delight of our users and salespeople.
                </p>
             </div>
-            <div class="span4">
+            <div class="span6">
                <h2>I do the weird stuff.</h2>
                <p>
-               </p>
-            </div>
-            <div class="span4">
-               <h2>I love this shit.</h2>
-               <p>
+                  I've written a Windows driver installer.  I wrote a <code>node</code> development server, which compiles, minifies, runs tests, and generates a cache manifest whenever anything changes.  I've written a dependency-tracking configuration management system (in the pre-NuGet era).  I've written MSBuild scripts.  I've written MVVM interfaces in HTML.
                </p>
             </div>
          </div>
 
-         <hr>
-
+         <section class="page-header">
+            <h1>I love this shit.</h1>
+         </section>
          <div class="row">
-            <div class="span12">
-               <p>Think it over.  Here's where you can find out more.</p>
+            <div class="span6">
                <p>
-                  <a class="btn" href="http://ben.straubnet.net/cv">My CV</a>
-                  <a class="btn" href="http://ben.straubnet.net">My Blog</a>
-                  <a class="btn" href="http://github.com/benstraub">My Github</a>
+                  Never in my career have I been more excited than when I'm working on rich, beautiful user interfaces.  Don't get me wrong, I love programming, but <em>this</em> is my sweet spot.  I've discovered my passion, and I intend to follow it.  <a  href="http://ben.straubnet.net/cv" target="_blank">My CV</a> has more details about me.  I look forward to hearing from you.
+               </p>
+
+            </div>
+
+            <div class="span6">
+               <a class="pull-left" href="http://ben.straubnet.net/cv">
+                  <img src="http://en.gravatar.com/userimage/5337271/78528e57e66e1c6dc0be5068ecdb2ff0.jpg?size=75" />
+               </a>
+               <h1><a href="http://ben.straubnet.net/cv" target="_blank">Ben Straub</a></h1>
+               <p>
+                  <a href="http://ben.straubnet.net/cv" target="_blank">ben.straubnet.net/cv</a>
+                  <br/>
+                  <a href="mailto:ben@straubnet.net">ben@straubnet.net</a>
+               </p>
             </div>
          </div>
 
       </div> <!-- /container -->
-
-      <script src="js/jquery.js"></script>
-      <script src="js/bootstrap-min.js"></script>
 
    </body>
 </html>
